@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jBarraInicial">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jManutencoes">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Manuten&#xe7;&#xf5;es"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="jCadastro">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastro"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jClientes">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Clientes"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jClientesActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jListagem">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Listagem de Clientes"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jListagemActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jFep">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="FEP"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jFepActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jFornecedores">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Fornecedores"/>
+                  </Properties>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jProdutos">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Produtos"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jProdutosActionPerformed"/>
+                  </Events>
+                </MenuItem>
+                <MenuItem class="javax.swing.JMenuItem" name="jTransportadora">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Transportadora"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTransportadoraActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator1">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jComprasGerais">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Compras Gerais"/>
+              </Properties>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator2">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jMateriaPrima">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Compras de Mat&#xe9;ria Prima"/>
+              </Properties>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator3">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jRequisi&#xe7;&#xe3;oComprasGerais">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Requisi&#xe7;&#xe3;o de Compras Gerais"/>
+              </Properties>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator4">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jEstoque">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Estoque"/>
+              </Properties>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator5">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jVendas">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Vendas"/>
+              </Properties>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator6">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jFinanceiro">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Financeiro "/>
+              </Properties>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator7">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jManutencao">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Manuten&#xe7;&#xe3;o"/>
+              </Properties>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator8">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jFaturamento">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Faturamento"/>
+              </Properties>
+              <SubComponents>
+                <MenuItem class="javax.swing.JMenuItem" name="jmFichao">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Fich&#xe3;o"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jmFichaoActionPerformed"/>
+                  </Events>
+                </MenuItem>
+              </SubComponents>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator9">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jPcp">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PCP"/>
+              </Properties>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator10">
+            </MenuItem>
+            <Menu class="javax.swing.JMenu" name="jRh">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="RH"/>
+              </Properties>
+            </Menu>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator11">
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jPortaria">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Portaria"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jPortariaActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JPopupMenu$Separator" name="jSeparator12">
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jRelatorio">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Relat&#xf3;rio"/>
+          </Properties>
+          <SubComponents>
+            <Menu class="javax.swing.JMenu" name="jPesagemRodovi&#xe1;ria">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Pesagem Rodovi&#xe1;ria"/>
+              </Properties>
+            </Menu>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jSaida">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sa&#xed;da"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jOperacional">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Operacional"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Cadastro de Usu&#xe1;rio"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Projeto Armagedon"/>
+    <Property name="iconImages" type="java.util.List" editor="org.netbeans.modules.form.ComponentChooserEditor">
+      <ComponentRef name="null"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jBarraInicial"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowActivated" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowActivated"/>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="948" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Component id="jTela" alignment="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="391" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Component id="jTela" alignment="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JDesktopPane" name="jTela">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="9"/>
+      </AuxValues>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="728" max="32767" attributes="0"/>
+                  <Component id="jlUser" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jtUser" min="-2" pref="110" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jtUser" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jlUser" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="369" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="jtUser">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="99" green="66" red="0" type="rgb"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="caretColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="10"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jlUser">
+          <Properties>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Login realizado por:"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
